@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  content: "";
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+  background: blue;
+  padding: 10px 0;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+[class^="col"] {
+  content: "";
+  background: pink;
+  height: 30px;
+  margin: 10px 0.5%;
+}
+
+.col1 {
+  width: 8.33333% -1%;
+}
+
+.col2 {
+  width: 16.66667% -1%;
+}
+
+.col3 {
+  width: 25% -1%;
+}
+
+.col4 {
+  width: 33.33333% -1%;
+}
+
+.col5 {
+  width: 41.66667% -1%;
+}
+
+.col6 {
+  width: 50% -1%;
+}
+
+.col7 {
+  width: 58.33333% -1%;
+}
+
+.col8 {
+  width: 66.66667% -1%;
+}
+
+.col9 {
+  width: 75% -1%;
+}
+
+.col10 {
+  width: 83.33333% -1%;
+}
+
+.col11 {
+  width: 91.66667% -1%;
+}
+
+.col12 {
+  width: 100% -1%;
+}
+
+@media screen and (max-width: 480px) {
+  .col1-md {
+    width: 8.33333% -1%;
+  }
+  .col2-md {
+    width: 16.66667% -1%;
+  }
+  .col3-md {
+    width: 25% -1%;
+  }
+  .col4-md {
+    width: 33.33333% -1%;
+  }
+  .col5-md {
+    width: 41.66667% -1%;
+  }
+  .col6-md {
+    width: 50% -1%;
+  }
+  .col7-md {
+    width: 58.33333% -1%;
+  }
+  .col8-md {
+    width: 66.66667% -1%;
+  }
+  .col9-md {
+    width: 75% -1%;
+  }
+  .col10-md {
+    width: 83.33333% -1%;
+  }
+  .col11-md {
+    width: 91.66667% -1%;
+  }
+  .col12-md {
+    width: 100% -1%;
+  }
+}
+/*# sourceMappingURL=grid.css.map */
